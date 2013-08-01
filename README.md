@@ -26,18 +26,19 @@ Copyright (C) 2011 James Ganis
 Your rotations should be saved inside Rotations/rotations.lua.
 Inside the function jpsRotations.loadRotations() you can register new rotations defined somewhere inside this file.
 
- avaible Strings for classes/specs (Case sensitive!) 
- "WARRIOR" = "ARMS","FURY","PROTECTION"
- "PALADIN" = "HOLY","PROTECTION","RETRIBUTION"
- "HUNTER" = "BEASTMASTERY","MARKSMANSHIP","SURVIVAL"
- "ROGUE" = "ASSASSINATION","COMBAT","SUBTLETY"
- "PRIEST" = "DISCIPLINE","HOLY","SHADOW"
- "DEATHKKNIGHT" = "BLOOD","FROST","UNHOLY"
- "SHAMAN" = "ELEMENTAL","ENHANCEMENT","RESTORATION"
- "MAGE" = "ARCANE","FIRE","FROST"
- "WARLOCK" = "AFFLICTION","DEMONOLOGY","DESTRUCTION"
- "MONK" = "BREWMASTER","MISTWEAVER","WINDWALKER"
- "DRUID" = "BALANCE","FERAL","GUARDIAN","RESTORATION"
+avaible Strings for classes/specs (Case sensitive!) 
+
+	"WARRIOR" = "ARMS","FURY","PROTECTION"
+	"PALADIN" = "HOLY","PROTECTION","RETRIBUTION"
+	"HUNTER" = "BEASTMASTERY","MARKSMANSHIP","SURVIVAL"
+	"ROGUE" = "ASSASSINATION","COMBAT","SUBTLETY"
+	"PRIEST" = "DISCIPLINE","HOLY","SHADOW"
+	"DEATHKKNIGHT" = "BLOOD","FROST","UNHOLY"
+	"SHAMAN" = "ELEMENTAL","ENHANCEMENT","RESTORATION"
+	"MAGE" = "ARCANE","FIRE","FROST"
+	"WARLOCK" = "AFFLICTION","DEMONOLOGY","DESTRUCTION"
+	"MONK" = "BREWMASTER","MISTWEAVER","WINDWALKER"
+	"DRUID" = "BALANCE","FERAL","GUARDIAN","RESTORATION"
 
 	--  jps.registerRotation("CLASS","SPECC",function,tooltip, pve, pvp)	
 	function demoDKRotation()
@@ -53,7 +54,7 @@ Inside the function jpsRotations.loadRotations() you can register new rotations 
 	
 	jps.registerRotation("DEATHKNIGHT","FROST", demoDKRotation() ,"DEMO DK ROTATION", true, false) ]]
 
-** function jpsRotations.loadRotations **
+*** function jpsRotations.loadRotations ***
 Registers the given Rotation. If you register more than one Rotation per Class/Spec you will get a Drop-Down Menu where you can
 choose your Rotation. Rotations should be only registered inside this function, because we have to wait until JPS is loaded.
 
