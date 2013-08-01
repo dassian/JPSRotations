@@ -40,7 +40,9 @@ avaible Strings for classes/specs (Case sensitive!)
 	"MONK" = "BREWMASTER","MISTWEAVER","WINDWALKER"
 	"DRUID" = "BALANCE","FERAL","GUARDIAN","RESTORATION"
 
-	--  jps.registerRotation("CLASS","SPECC",function,tooltip, pve, pvp)	
+
+Usage example:
+
 	function demoDKRotation()
 		local spellTable = {
 			....
