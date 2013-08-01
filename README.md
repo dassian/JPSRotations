@@ -54,7 +54,12 @@ Usage example:
 		return spell,target
 	end
 	
-	jps.registerRotation("DEATHKNIGHT","FROST", demoDKRotation() ,"DEMO DK ROTATION", true, false) ]]
+	function jpsRotations.loadRotations() {
+		-- REGISTER YOUR CUSTOM ROTATIONS HERE
+
+		jps.registerRotation("DEATHKNIGHT","FROST", demoDKRotation() ,"DEMO DK ROTATION", true, false) ]]
+	}
+
 
 jpsRotations.loadRotations
 ------------------------
