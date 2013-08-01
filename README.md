@@ -57,7 +57,7 @@ Usage example:
 	function jpsRotations.loadRotations() {
 		-- REGISTER YOUR CUSTOM ROTATIONS HERE
 
-		jps.registerRotation("DEATHKNIGHT","FROST", demoDKRotation() ,"DEMO DK ROTATION", true, false) ]]
+		jps.registerRotation("DEATHKNIGHT","FROST", demoDKRotation() ,"DEMO DK ROTATION", true, false)
 	}
 
 
