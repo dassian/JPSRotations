@@ -56,8 +56,9 @@ Usage example:
 	
 	jps.registerRotation("DEATHKNIGHT","FROST", demoDKRotation() ,"DEMO DK ROTATION", true, false) ]]
 
-*** function jpsRotations.loadRotations ***
-Registers the given Rotation. If you register more than one Rotation per Class/Spec you will get a Drop-Down Menu where you can
+jpsRotations.loadRotations
+------------------------
+loadRotations() Registers your custom rotations. If you register more than one Rotation per Class/Spec you will get a Drop-Down Menu where you can
 choose your Rotation. Rotations should be only registered inside this function, because we have to wait until JPS is loaded.
 
 
